@@ -1,21 +1,21 @@
 {
   "name": "kml-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "KML playground for Google Earth Web",
   "main": "index.js",
   "scripts": {
     "start": "curl --silent http://127.0.0.1:4040/api/tunnels | ./node_modules/node-jq/bin/jq '.tunnels[0].public_url' -r | node index.js",
     "tunnel": "ngrok http 8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/urban-sky/kml-sandbox.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/urban-sky/kml-sandbox/issues"
-  },
+  "author": {
+		"name": "Maxmillion McLaughlin",
+		"email": "max@urbansky.space"
+	},
+  "engines": {
+		"node": ">=8"
+	},
+  "repository": "url": "urban-sky/kml-sandbox",
+  "license": "MIT",
   "homepage": "https://github.com/urban-sky/kml-sandbox#readme",
   "dependencies": {
     "node-jq": "^1.11.1"
