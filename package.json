@@ -1,23 +1,21 @@
 {
-  "name": "kml-sandbox",
+  "name": "@maxmclau/tunntunn",
   "version": "1.0.0",
-  "description": "KML playground for Google Earth Web",
-  "main": "index.js",
-  "scripts": {
-    "start": "curl --silent http://127.0.0.1:4040/api/tunnels | ./node_modules/node-jq/bin/jq '.tunnels[0].public_url' -r | node index.js",
-    "tunnel": "ngrok http 8080"
+  "description": "Tunnel your Google Earth KMLs",
+  "bin": {
+    "tunntunn": "cli.js"
   },
   "author": {
 		"name": "Maxmillion McLaughlin",
-		"email": "max@urbansky.space"
+    "email": "max@maxmclau.com",
+    "url": "maxmclau.com"
 	},
   "engines": {
 		"node": ">=8"
-	},
-  "repository": "url": "urban-sky/kml-sandbox",
-  "license": "MIT",
-  "homepage": "https://github.com/urban-sky/kml-sandbox#readme",
-  "dependencies": {
-    "node-jq": "^1.11.1"
-  }
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": "maxmclau/tunntunn",
+  "license": "MIT"
 }
