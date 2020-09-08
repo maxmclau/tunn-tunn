@@ -5,7 +5,7 @@ Extremely online local KMLs
 ## Install
 
 ```
-$ npm install @maxmclau/tunntunn
+$ npm install tunntunn
 ```
 
 You must also install and configure [ngrok](https://ngrok.com/) before use.
@@ -13,5 +13,5 @@ You must also install and configure [ngrok](https://ngrok.com/) before use.
 ## Usage
 
 ```
-$ tunntunn ./index.kml foo/dist.kml
+$ tunntunn input.kml output.kml
 ```
