@@ -1,5 +1,5 @@
 {
-  "name": "@maxmclau/tunntunn",
+  "name": "tunntunn",
   "version": "1.0.0",
   "description": "Tunnel your Google Earth KMLs",
   "bin": {
