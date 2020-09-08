@@ -1,6 +1,6 @@
 {
   "name": "tunntunn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tunnel your Google Earth KMLs",
   "bin": {
     "tunntunn": "cli.js"

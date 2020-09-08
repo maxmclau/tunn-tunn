@@ -13,8 +13,6 @@ const port = 8080
   try {
     const [, , srcpath, outpath] = process.argv
 
-    console.log(process.argv)
-
     if (srcpath === undefined) {
       throw new Error('Path to KML not supplied.')
     }
