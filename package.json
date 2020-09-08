@@ -1,21 +1,21 @@
 {
   "name": "tunntunn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tunnel your Google Earth KMLs",
   "bin": {
     "tunntunn": "cli.js"
   },
   "author": {
-		"name": "Maxmillion McLaughlin",
-    "email": "max@maxmclau.com",
-    "url": "maxmclau.com"
-	},
+    "name": "Maxmillion McLaughlin",
+    "email": "max@maxmclau.com"
+  },
   "engines": {
-		"node": ">=8"
+    "node": ">=8"
   },
   "files": [
     "cli.js"
   ],
   "repository": "maxmclau/tunntunn",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
